@@ -31,20 +31,23 @@ Exaplanation: Lola can buy 3 set of candy packets.
 
 3.{45}
  */
-//passed 8 out of 30 test cases
+//passed 17 out of 30 test cases
 import java.util.*;
-public class Alice {
-    public static void main(String args []) 
-    {
-        int N=0;int count=0;
+class Alice{
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        N=sc.nextInt();
-        for(int i=0;i<=N;i=i+2){
-            int j=i; int sum=0;
-            while(sum<N && j<=N){
-            sum+=j;
-            if(sum == N) count++;
-            j++;}
+        int N=sc.nextInt();
+        int i=1; int count=0;
+        if(N%2!=0) count++;
+        while(i<N){
+            int j=i;
+            int sum=0;
+            while(j<N && sum<N && j%2!=0)
+            {
+                sum+=j; j=j+2;
+            }
+            if(sum==N) count++;
+            i=i+2;
         }
         System.out.println(count);
         sc.close();
