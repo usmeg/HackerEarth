@@ -32,6 +32,7 @@ Exaplanation: Lola can buy 3 set of candy packets.
 3.{45}
  */
 //passed 17 out of 30 test cases
+//@Author - Meghana.U.S
 import java.util.*;
 class Alice{
     public static void main(String args[]){
