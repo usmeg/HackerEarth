@@ -28,6 +28,7 @@ Source Limit:
 Explanation
 Here we can see that the product of the elements of array is 12 and the GCD of the array comes out to be 2 . Thus the answer would be 12^2 which is 144.*/
 //passed all test cases 
+//@Author - Meghana U S
 import java.util.*;
 class MonkQuotient{
     public static void main(String args[]){
