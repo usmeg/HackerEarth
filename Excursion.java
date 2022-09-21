@@ -28,7 +28,9 @@ Source Limit:
 Explanation
 For test 13 7 2 answer is 11, because need for boys 7 rooms and for girls need 4 rooms.
 
-For test 5 5 3 answer is 4, because need for boys 2 rooms and for girls need 2 rooms.*/
+For test 5 5 3 answer is 4, because need for boys 2 rooms and for girls need 2 rooms.
+Passed all test cases
+@Author - Meghana U S*/
 
 import java.util.*;
 class Excursion{
