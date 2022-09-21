@@ -19,7 +19,9 @@ Sample Output
 Yes
 Time Limit: 0.5
 Memory Limit: 256
-Source Limit:*/
+Source Limit:
+//passed all test cases 
+@Author - Meghana U S*/
 import java.util.*;
 class Zoos{
     public static void main(String args[]){
