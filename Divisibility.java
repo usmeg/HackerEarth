@@ -31,6 +31,7 @@ Therefore the number formed is 55514  which is not divisible by 10
 My logic- The divisibility rule for 10 is the last digit must be 0 or the number must be even and divisible by 5
 Taking just the last input's last digit and checking divisibility rule
 //Passed all the test cases 
+//@Author - Meghana U S
 */
 import java.util.*;
 class Divisibility{
