@@ -31,7 +31,8 @@ move to one position ahead from their current position. Now, the resultant array
 
 Time Limit: 1.0 sec(s) for each input file
 Memory Limit: 256 MB
-Source Limit: 1024 KB */
+Source Limit: 1024 KB 
+@Author - Meghana U S*/
 import java.util.*;
 class Rotation{
     public static void main(String args[]){
